@@ -14,3 +14,14 @@
             });
         });
 
+        $(document).ready(function() {
+            $("#reserverButton").click(function(){
+                $("#reserveModal").modal();
+            }); 
+        });
+
+        $(document).ready(function() {
+            $("#loginButton").click(function(){
+                $("#loginModal").modal();
+            }); 
+        });
